@@ -1,7 +1,15 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "obviously-awesome-positioning",
+  "displayName": "Obviously Awesome Positioning",
   "version": "0.1.0",
   "description": "A positioning methodology plugin based on April Dunford's Obviously Awesome, providing the 10-step positioning process, five-plus-one components framework, market positioning styles, and anti-pattern detection for product positioning work.",
+  "author": {
+    "name": "dchuk",
+    "url": "https://github.com/dchuk"
+  },
+  "homepage": "https://github.com/dchuk/obviously-awesome-positioning",
+  "repository": "https://github.com/dchuk/obviously-awesome-positioning",
   "license": "MIT",
   "keywords": [
     "positioning",
