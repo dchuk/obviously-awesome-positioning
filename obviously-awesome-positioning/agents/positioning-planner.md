@@ -171,12 +171,14 @@ Six months since last review; new credible competitor; competitor acquisition; r
 
 ## Templates
 
-Hand the user the matching blank template when you reach Steps 2, 3, 7, and the Step 10 capture — offer to either populate it from the step's output or hand it over for the user to fill in.
+Hand the user the matching blank template when you reach Steps 2, 3, 7, 9, and the Step 10 capture — offer to either populate it from the step's output or hand it over for the user to fill in.
 
 - Step 2 → [positioning-team-roster.md](../skills/obviously-awesome/templates/positioning-team-roster.md) — cross-functional team roster + facilitator decision
 - Step 3 → [vocabulary-and-baggage.md](../skills/obviously-awesome/templates/vocabulary-and-baggage.md) — shared vocabulary + positioning baggage audit
 - Step 7 → [target-segment-profile.md](../skills/obviously-awesome/templates/target-segment-profile.md) — who-cares segment definition + worthiness test
+- Step 9 (optional) → [trend-layering.md](../skills/obviously-awesome/templates/trend-layering.md) — three-circle + product-link go/no-go checklist; only layer a trend if every gate passes
 - Step 10 capture → [positioning-canvas.md](../skills/obviously-awesome/templates/positioning-canvas.md) — consolidates the per-step outputs into the Five (plus one) components; replaces the traditional FOR/IS-A positioning statement
+- Step 10 implement → [master-messaging.md](../skills/obviously-awesome/templates/master-messaging.md) — the canonical baseline all campaigns and copy start from; stops messaging drift
 
 ---
 

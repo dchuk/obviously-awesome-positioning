@@ -31,7 +31,7 @@ Run these in order to work through the full positioning process, or invoke any o
 
 ## Templates
 
-Blank, fillable artifacts to capture the output of each step — kept in `skills/obviously-awesome/templates/`. They reuse each step's exact output structure and bake in the book's hard constraints (e.g. 2–5 competitive-alternative clusters, 1–4 value themes, provable attributes only), so an artifact stays consistent across sessions and can be versioned alongside your positioning work. Most back a command; the four that fill steps with no dedicated command are surfaced by the **planner agent** and the **skill registry**. Listed in 10-step order:
+Blank, fillable artifacts to capture the output of each step — kept in `skills/obviously-awesome/templates/`. They reuse each step's exact output structure and bake in the book's hard constraints (e.g. 2–5 competitive-alternative clusters, 1–4 value themes, provable attributes only), so an artifact stays consistent across sessions and can be versioned alongside your positioning work. Most back a command; the six that fill steps with no dedicated command are surfaced by the **planner agent** and the **skill registry**. Listed in 10-step order:
 
 | Template | Step | Backed by | Captures |
 |----------|------|-----------|----------|
@@ -44,7 +44,9 @@ Blank, fillable artifacts to capture the output of each step — kept in `skills
 | `value-themes.md` | 6 | `/map-value-themes` | Features→benefits→value chain and the 1–4 named themes |
 | `target-segment-profile.md` | 7 | planner agent / skill | Who-cares segment definition + worthiness test |
 | `market-frame.md` | 8 | `/select-market-frame` | The three style decision tables + the chosen frame of reference |
+| `trend-layering.md` | 9 (optional) | planner agent / skill | Three-circle + product-link go/no-go checklist |
 | `sales-story.md` | 10 | `/build-sales-story` | The 7-stage sales narrative arc |
+| `master-messaging.md` | 10 | planner agent / skill | Canonical baseline messaging that stops copy drift |
 | `positioning-canvas.md` | 4–9 (capture at 10) | planner agent / skill | Five (plus one) consolidation; replaces the FOR/IS-A statement |
 | `positioning-review-log.md` | Ongoing | `/review-positioning-health` | Append-only log of landscape changes and reposition decisions |
 
@@ -68,7 +70,7 @@ The skill draws on 12 reference files:
 obviously-awesome-positioning/    # the plugin
 ├── commands/                     # 7 slash commands
 ├── agents/                       # 2 agents
-└── skills/obviously-awesome/     # skill + 12 reference files + 12 templates
+└── skills/obviously-awesome/     # skill + 12 reference files + 14 templates
 .claude-plugin/marketplace.json   # marketplace manifest
 ```
 

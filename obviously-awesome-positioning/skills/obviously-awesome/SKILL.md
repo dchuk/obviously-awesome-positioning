@@ -88,7 +88,7 @@ Full anti-pattern catalog: [Positioning Anti-Patterns](references/anti-patterns/
 
 ## Templates
 
-Registry of all 12 fillable templates, in 10-step order. Paths are relative to this file (`skills/obviously-awesome/`).
+Registry of all 14 fillable templates, in 10-step order. Paths are relative to this file (`skills/obviously-awesome/`).
 
 | Template | Step | Backed by | Captures |
 |----------|------|-----------|----------|
@@ -101,7 +101,9 @@ Registry of all 12 fillable templates, in 10-step order. Paths are relative to t
 | [value-themes.md](templates/value-themes.md) | 6 | `/map-value-themes` | features→benefits→value chain + 1–4 themes |
 | [target-segment-profile.md](templates/target-segment-profile.md) | 7 | planner agent / skill | who-cares segment definition + worthiness test |
 | [market-frame.md](templates/market-frame.md) | 8 | `/select-market-frame` | three style decision tables + chosen frame |
+| [trend-layering.md](templates/trend-layering.md) | 9 (optional) | planner agent / skill | three-circle + product-link go/no-go checklist |
 | [sales-story.md](templates/sales-story.md) | 10 | `/build-sales-story` | the 7-stage sales narrative arc |
+| [master-messaging.md](templates/master-messaging.md) | 10 | planner agent / skill | canonical baseline messaging; stops copy drift |
 | [positioning-canvas.md](templates/positioning-canvas.md) | 4–9 (capture at 10) | planner agent / skill | Five (plus one) consolidation; replaces the FOR/IS-A statement |
 | [positioning-review-log.md](templates/positioning-review-log.md) | Ongoing | `/review-positioning-health` | append-only log of changes + reposition decisions |
 
