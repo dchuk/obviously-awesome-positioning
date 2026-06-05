@@ -1,43 +1,57 @@
 # obviously-awesome-positioning
 
-A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin based on *Obviously Awesome* by April Dunford.
+A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin based on *[Obviously Awesome](https://www.aprildunford.com/obviously-awesome)* by April Dunford.
 
-A positioning methodology plugin based on April Dunford's Obviously Awesome, providing the 10-step positioning process, five-plus-one components framework, market positioning styles, and anti-pattern detection for product positioning work.
+It packages April Dunford's positioning methodology — the 10-step process, the five (plus one) components framework, the three market positioning styles, and the book's anti-pattern catalog — into commands, agents, and an auto-activating skill for product positioning work.
 
 ## Install
 
 ```bash
-claude plugin marketplace add owner/repo
+claude plugin marketplace add dchuk/obviously-awesome-positioning
 claude plugin install obviously-awesome-positioning@obviously-awesome-positioning
 ```
 
-*Replace `owner/repo` with the GitHub repository after publishing with `franklin push`.*
+## Skill
+
+The plugin includes an auto-activating skill — `obviously-awesome-positioning` — that brings the methodology into any conversation when relevant, without you running a command. It triggers on phrases like *"position my product"*, *"why aren't we resonating with customers"*, *"pick a market category"*, *"build a sales narrative"*, or *"fix our messaging"*.
 
 ## Commands
 
+Run these in order to work through the full positioning process, or invoke any one on its own. Each accepts an optional argument (a product name, description, or path to a positioning doc).
+
 | Command | Purpose |
 |---------|---------|
-| `/obviously-awesome-positioning:diagnose-positioning` | Diagnose whether a product has a positioning problem by evaluating current positioning against the book's symptoms of weak positioning: |
-| `/obviously-awesome-positioning:identify-best-fit-customers` | Identify best-fit customers by guiding the user through listing their happiest customers, finding patterns in why the... |
-| `/obviously-awesome-positioning:list-competitive-alternatives` | List true competitive alternatives by asking 'what would best-fit customers do without you?', ranking by frequency, a... |
-| `/obviously-awesome-positioning:map-value-themes` | Map product attributes to value themes by walking through the features→benefits→value chain, then clustering related ... |
-| `/obviously-awesome-positioning:select-market-frame` | Select a market frame of reference by evaluating the three positioning styles (Head to Head, Big Fish Small Pond, Cre... |
-| `/obviously-awesome-positioning:build-sales-story` | Build a sales story from completed positioning by following the 7-step arc: |
-| `/obviously-awesome-positioning:review-positioning-health` | Conduct a periodic positioning review by checking for competitive landscape changes, customer perception shifts, and ... |
+| `/obviously-awesome-positioning:diagnose-positioning` | Diagnose whether your product has a positioning problem using the book's symptom checklist |
+| `/obviously-awesome-positioning:identify-best-fit-customers` | Identify best-fit customers to anchor all subsequent positioning work |
+| `/obviously-awesome-positioning:list-competitive-alternatives` | List true competitive alternatives from the customer's perspective |
+| `/obviously-awesome-positioning:map-value-themes` | Map product attributes to value themes using the features→benefits→value chain |
+| `/obviously-awesome-positioning:select-market-frame` | Select a market frame of reference using Head to Head, Big Fish Small Pond, or Create a New Game |
+| `/obviously-awesome-positioning:build-sales-story` | Build a sales story from completed positioning using the 7-step arc |
+| `/obviously-awesome-positioning:review-positioning-health` | Conduct a periodic positioning review and decide whether to reposition or hold |
 
 ## Agents
 
-- **positioning-reviewer** — Reviews a user's current positioning (product description, website copy, pitch deck, etc.) against the book's comprehensive anti-pattern catalog and rules.
-- **positioning-planner** — Plans and sequences a positioning or repositioning effort for a product.
+- **obviously-awesome-positioning-planner** — Plans and sequences a positioning or repositioning effort, guiding you through the full 10-step process and adapting to whether you're positioning from scratch, repositioning an existing product, or responding to a competitive landscape change.
+- **obviously-awesome-positioning-reviewer** — Reviews existing positioning (website copy, pitch deck, product description, messaging doc, or positioning statement) against the book's anti-pattern catalog, the five (plus one) components framework, and the three market positioning styles.
 
 ## Reference Files
 
-12 reference files organized into:
+The skill draws on 12 reference files:
 
-- `references/anti-patterns/` — positioning-anti-patterns
-- `references/core/` — best-fit-customers, five-plus-one-components, positioning-foundations, positioning-team-and-vocabulary
+- `references/core/` — positioning-foundations, five-plus-one-components, best-fit-customers, positioning-team-and-vocabulary
 - `references/patterns/` — market-positioning-styles
-- `references/topics/` — competitive-alternatives, sales-story-and-messaging, target-segmentation, trend-layering, unique-attributes, value-themes
+- `references/topics/` — competitive-alternatives, value-themes, unique-attributes, target-segmentation, trend-layering, sales-story-and-messaging
+- `references/anti-patterns/` — positioning-anti-patterns
+
+## Layout
+
+```
+obviously-awesome-positioning/    # the plugin
+├── commands/                     # 7 slash commands
+├── agents/                       # 2 agents
+└── skills/obviously-awesome/     # skill + 12 reference files
+.claude-plugin/marketplace.json   # marketplace manifest
+```
 
 ---
 
