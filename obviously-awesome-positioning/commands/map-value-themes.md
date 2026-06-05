@@ -67,7 +67,7 @@ argument-hint: "[product name or positioning doc]"
 5. **Prioritize consideration attributes.** Review the final themes. Flag any theme that is supported exclusively by retention attributes — these are important for customer success but should not anchor external positioning. Confirm at least one theme is anchored in consideration attributes.
 
 6. **Hand off to next steps.** Present the 1–4 value themes as input-ready for:
-   - Step 7: target segmentation (who cares most about which themes?) — see `target-segmentation.md`
+   - Step 7: target segmentation (who cares most about which themes?) — see `target-segmentation.md`; offer the user the blank template at `../skills/obviously-awesome/templates/target-segment-profile.md` to capture the who-cares segment definition
    - Step 8: market frame of reference selection — see `select-market-frame.md`
 
 ## Verify
@@ -97,3 +97,4 @@ If any theme is still expressed as a feature or benefit rather than a customer g
 - [Competitive alternatives](../skills/obviously-awesome/references/topics/competitive-alternatives.md) — Step 4 output that feeds this command
 - [Unique Attributes template](../skills/obviously-awesome/templates/unique-attributes.md) — fillable blank for this command's output
 - [Value Themes template](../skills/obviously-awesome/templates/value-themes.md) — fillable blank for this command's output
+- [Target Segment Profile template](../skills/obviously-awesome/templates/target-segment-profile.md) — fillable blank for the Step 7 hand-off

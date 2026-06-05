@@ -1,12 +1,6 @@
 ---
 name: obviously-awesome-positioning
-description: >
-  Helps founders, marketers, and executives deliberately position products using
-  April Dunford's 10-step methodology from Obviously Awesome. Use when diagnosing
-  weak positioning, repositioning a product, building a sales story, selecting a
-  market frame of reference, or reviewing positioning health. Trigger phrases:
-  "position my product", "why aren't we resonating with customers", "pick a market
-  category", "build a sales narrative", "fix our messaging".
+description: "Helps founders, marketers, and executives deliberately position products using April Dunford's 10-step methodology from Obviously Awesome. Use when diagnosing weak positioning, repositioning a product, building a sales story, selecting a market frame of reference, or reviewing positioning health. Trigger phrases: \"position my product\", \"why aren't we resonating with customers\", \"pick a market category\", \"build a sales narrative\", \"fix our messaging\"."
 allowed-tools:
   - Grep
   - Glob
@@ -89,6 +83,27 @@ Full anti-pattern catalog: [Positioning Anti-Patterns](references/anti-patterns/
 | `/select-market-frame` | Evaluate all three positioning styles and select a market frame of reference ([details](../../commands/select-market-frame.md)) |
 | `/build-sales-story` | Build a 7-step sales story arc from completed positioning ([details](../../commands/build-sales-story.md)) |
 | `/review-positioning-health` | Periodic check for competitive drift, customer perception shifts, and market changes ([details](../../commands/review-positioning-health.md)) |
+
+---
+
+## Templates
+
+Registry of all 12 fillable templates, in 10-step order. Paths are relative to this file (`skills/obviously-awesome/`).
+
+| Template | Step | Backed by | Captures |
+|----------|------|-----------|----------|
+| [positioning-diagnosis.md](templates/positioning-diagnosis.md) | Diagnostic | `/diagnose-positioning` | symptom checklist + customer-vs-prospect gap + verdict |
+| [best-fit-customers.md](templates/best-fit-customers.md) | 1 | `/identify-best-fit-customers` | 3–10 anchor customers + scope decision |
+| [positioning-team-roster.md](templates/positioning-team-roster.md) | 2 | planner agent / skill | cross-functional team + facilitator |
+| [vocabulary-and-baggage.md](templates/vocabulary-and-baggage.md) | 3 | planner agent / skill | shared vocabulary + baggage audit |
+| [competitive-alternatives.md](templates/competitive-alternatives.md) | 4 | `/list-competitive-alternatives` | ranked 2–5 clusters of alternatives |
+| [unique-attributes.md](templates/unique-attributes.md) | 5 | `/map-value-themes` | provable attributes + proof + consideration/retention |
+| [value-themes.md](templates/value-themes.md) | 6 | `/map-value-themes` | features→benefits→value chain + 1–4 themes |
+| [target-segment-profile.md](templates/target-segment-profile.md) | 7 | planner agent / skill | who-cares segment definition + worthiness test |
+| [market-frame.md](templates/market-frame.md) | 8 | `/select-market-frame` | three style decision tables + chosen frame |
+| [sales-story.md](templates/sales-story.md) | 10 | `/build-sales-story` | the 7-stage sales narrative arc |
+| [positioning-canvas.md](templates/positioning-canvas.md) | 4–9 (capture at 10) | planner agent / skill | Five (plus one) consolidation; replaces the FOR/IS-A statement |
+| [positioning-review-log.md](templates/positioning-review-log.md) | Ongoing | `/review-positioning-health` | append-only log of changes + reposition decisions |
 
 ---
 

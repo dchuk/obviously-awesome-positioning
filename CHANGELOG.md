@@ -4,6 +4,24 @@ All notable changes to this plugin are documented here. The format is based on
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.0] - 2026-06-05
+
+### Added
+- 4 P1 templates filling the 10-step gaps that have no dedicated command:
+  `positioning-team-roster` (Step 2), `vocabulary-and-baggage` (Step 3),
+  `target-segment-profile` (Step 7), and `positioning-canvas` (the Five-plus-one
+  consolidation that replaces the FOR/IS-A statement). Brings the set to 12.
+- A `## Templates` registry in the skill (`SKILL.md`) listing all 12 templates.
+
+### Changed
+- The planner agent now offers the matching blank template at Steps 2, 3, 7, and
+  the Step 10 capture.
+- `/map-value-themes` offers `target-segment-profile.md` at its Step 7 hand-off.
+
+### Fixed
+- `SKILL.md` frontmatter `description` is now a single valid quoted scalar (the
+  prior multi-line block scalar interfered with skill discovery).
+
 ## [0.2.0] - 2026-06-05
 
 ### Added

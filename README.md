@@ -31,18 +31,22 @@ Run these in order to work through the full positioning process, or invoke any o
 
 ## Templates
 
-Each command can hand you a blank, fillable artifact to capture its output — kept in `skills/obviously-awesome/templates/`. They reuse each command's exact output structure and bake in the book's hard constraints (e.g. 2–5 competitive-alternative clusters, 1–4 value themes, provable attributes only), so the artifact stays consistent across sessions and can be versioned alongside your positioning work.
+Blank, fillable artifacts to capture the output of each step — kept in `skills/obviously-awesome/templates/`. They reuse each step's exact output structure and bake in the book's hard constraints (e.g. 2–5 competitive-alternative clusters, 1–4 value themes, provable attributes only), so an artifact stays consistent across sessions and can be versioned alongside your positioning work. Most back a command; the four that fill steps with no dedicated command are surfaced by the **planner agent** and the **skill registry**. Listed in 10-step order:
 
-| Template | Backs | Captures |
-|----------|-------|----------|
-| `best-fit-customers.md` | `/identify-best-fit-customers` | 3–10 anchor customers + product-vs-company scope decision |
-| `competitive-alternatives.md` | `/list-competitive-alternatives` | Ranked 2–5 clusters of what customers would do without you |
-| `unique-attributes.md` | `/map-value-themes` | Provable attributes with proof source + consideration/retention |
-| `value-themes.md` | `/map-value-themes` | Features→benefits→value chain and the 1–4 named themes |
-| `market-frame.md` | `/select-market-frame` | The three style decision tables + the chosen frame of reference |
-| `sales-story.md` | `/build-sales-story` | The 7-stage sales narrative arc |
-| `positioning-diagnosis.md` | `/diagnose-positioning` | Symptom checklist + customer-vs-prospect gap + verdict |
-| `positioning-review-log.md` | `/review-positioning-health` | Append-only log of landscape changes and reposition decisions |
+| Template | Step | Backed by | Captures |
+|----------|------|-----------|----------|
+| `positioning-diagnosis.md` | Diagnostic | `/diagnose-positioning` | Symptom checklist + customer-vs-prospect gap + verdict |
+| `best-fit-customers.md` | 1 | `/identify-best-fit-customers` | 3–10 anchor customers + product-vs-company scope decision |
+| `positioning-team-roster.md` | 2 | planner agent / skill | Cross-functional team + facilitator decision |
+| `vocabulary-and-baggage.md` | 3 | planner agent / skill | Shared vocabulary + positioning-baggage audit |
+| `competitive-alternatives.md` | 4 | `/list-competitive-alternatives` | Ranked 2–5 clusters of what customers would do without you |
+| `unique-attributes.md` | 5 | `/map-value-themes` | Provable attributes with proof source + consideration/retention |
+| `value-themes.md` | 6 | `/map-value-themes` | Features→benefits→value chain and the 1–4 named themes |
+| `target-segment-profile.md` | 7 | planner agent / skill | Who-cares segment definition + worthiness test |
+| `market-frame.md` | 8 | `/select-market-frame` | The three style decision tables + the chosen frame of reference |
+| `sales-story.md` | 10 | `/build-sales-story` | The 7-stage sales narrative arc |
+| `positioning-canvas.md` | 4–9 (capture at 10) | planner agent / skill | Five (plus one) consolidation; replaces the FOR/IS-A statement |
+| `positioning-review-log.md` | Ongoing | `/review-positioning-health` | Append-only log of landscape changes and reposition decisions |
 
 ## Agents
 
@@ -64,7 +68,7 @@ The skill draws on 12 reference files:
 obviously-awesome-positioning/    # the plugin
 ├── commands/                     # 7 slash commands
 ├── agents/                       # 2 agents
-└── skills/obviously-awesome/     # skill + 12 reference files + 8 templates
+└── skills/obviously-awesome/     # skill + 12 reference files + 12 templates
 .claude-plugin/marketplace.json   # marketplace manifest
 ```
 
