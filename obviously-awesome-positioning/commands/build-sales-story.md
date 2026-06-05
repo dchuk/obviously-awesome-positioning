@@ -42,6 +42,8 @@ argument-hint: "[product name or positioning doc path]"
 
 9. **Assemble and review the full arc.** Output the complete story arc as a numbered list using the inputs collected above. Present it to the user and ask: "Does the team agree on the problem definition, the gaps in current solutions, the ideal-solution criteria, and the key purchase criteria implied by the value themes?" Iterate on any section where agreement is missing.
 
+   Offer the user the blank template at `../skills/obviously-awesome/templates/sales-story.md` — populate it directly with the assembled seven-stage arc, or hand it over for the team to fill in.
+
 ---
 
 ## Verify
@@ -64,3 +66,9 @@ If any arc step is missing or the team cannot agree, flag the specific disagreem
 - The sales story arc is an input to the messaging document, not a substitute for it. See [sales-story-and-messaging.md](../skills/obviously-awesome/references/topics/sales-story-and-messaging.md) for the full implementation path.
 - If your competitive landscape has changed since the positioning exercise, the arc built here may be stale. Run [review-positioning-health.md](review-positioning-health.md) first.
 - Positioning is a business strategy shift, not a marketing exercise — ensure leadership is aligned before the team starts building campaigns from this arc. See [positioning-foundations.md](../skills/obviously-awesome/references/core/positioning-foundations.md) for the strategic framing.
+
+---
+
+## Related files
+
+- [Sales Story Arc template](../skills/obviously-awesome/templates/sales-story.md) — fillable blank for this command's output

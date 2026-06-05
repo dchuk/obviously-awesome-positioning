@@ -82,6 +82,8 @@ argument-hint: "[product-name or positioning-notes-file]"
 
    If more than one style scored viable, recommend Big Fish, Small Pond over Head to Head when a clear leader exists, and always prefer an existing category over Create a New Game unless no existing category fits.
 
+   Offer the user the blank template at `../skills/obviously-awesome/templates/market-frame.md` — populate it directly with the candidate categories, the three style evaluation tables, and the recommendation block, or hand it over for the user to fill in.
+
 8. **Surface anti-patterns to avoid.** Based on the chosen style, flag any risks:
    - If the user is leaning toward Create a New Game without strong external forces, name the **Trend Without Market Declaration** anti-pattern: anchoring positioning to a trend rather than a defined market misleads buyers about what the product actually is and delays their purchase decision.
    - If the team is defaulting to the current category out of habit rather than deliberate evaluation, name the **feature of a big player** trap: positioning a genuinely differentiated product as a minor feature of a dominant platform destroys perceived value.
@@ -111,3 +113,9 @@ The selection is complete when you can confirm all of the following:
 - **Adjacent markets are legitimate candidates.** If lines between markets are shifting due to new technology or new entrants, and your product's value is more at home in an adjacent space, repositioning there is a valid choice — provided the move is driven by genuine fit, not trend-chasing.
 - **Re-evaluate periodically.** Competitive landscape changes, new entrants, or product evolution can invalidate a previously correct market frame. Use [review-positioning-health.md](review-positioning-health.md) to run a periodic check.
 - For foundational context on what a market frame of reference is and why it matters, see [positioning-foundations.md](../skills/obviously-awesome/references/core/positioning-foundations.md) and [five-plus-one-components.md](../skills/obviously-awesome/references/core/five-plus-one-components.md).
+
+---
+
+## Related files
+
+- [Market Frame of Reference template](../skills/obviously-awesome/templates/market-frame.md) — fillable blank for this command's output

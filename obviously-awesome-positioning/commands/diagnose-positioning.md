@@ -56,6 +56,7 @@ Invoke this command when any of the following are true:
    - If confirmed → suggest running `/identify-best-fit-customers` to anchor repositioning, then `/list-competitive-alternatives`
    - If likely → suggest running `/review-positioning-health` for a full component audit
    - If none detected → note that positioning appears healthy; suggest scheduling a periodic review
+   - Offer the user the blank template at `../skills/obviously-awesome/templates/positioning-diagnosis.md` — populate it directly with the symptom checklist, the customer-vs-prospect gap, the verdict, and the recommended next steps, or hand it over for the user to fill in. Keeping each run in this template makes diagnoses comparable over time.
 
 ## Verify
 
@@ -74,3 +75,4 @@ The diagnosis is complete and coherent when:
 - Deliberate vs. default positioning is a critical distinction — see [positioning foundations](../skills/obviously-awesome/references/core/positioning-foundations.md) for the two traps that arise from defaulting.
 - For a full catalog of anti-patterns and their fixes, see [positioning anti-patterns](../skills/obviously-awesome/references/anti-patterns/positioning-anti-patterns.md).
 - If the diagnosis reveals misfit-customer churn, the fix begins with understanding who your best-fit customers actually are — see [best-fit customers](../skills/obviously-awesome/references/core/best-fit-customers.md).
+- [Positioning Diagnosis template](../skills/obviously-awesome/templates/positioning-diagnosis.md) — fillable blank for this command's output

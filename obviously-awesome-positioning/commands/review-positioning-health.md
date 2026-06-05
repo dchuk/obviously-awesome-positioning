@@ -70,6 +70,7 @@ argument-hint: "[product name or positioning doc path]"
    - If repositioning: after completing Steps 4–9, update the sales story, master messaging document, roadmap priorities, and pricing alignment
    - If holding: correct any messaging drift found in Step 7 and refresh the master messaging document to reflect current language
    - Schedule the next review: set a concrete date six months out, or flag that the next major competitive/regulatory/economic/technology event should re-trigger this command immediately
+   - Offer the user the blank template at `../skills/obviously-awesome/templates/positioning-review-log.md` — append this review's trigger, perception check, and reposition-or-hold verdict as a new dated row, or hand it over for the user to maintain as an append-only log over time.
 
 ---
 
@@ -98,3 +99,12 @@ See [positioning anti-patterns](../skills/obviously-awesome/references/anti-patt
 For guidance on the three market positioning styles (Head to Head, Big Fish Small Pond, and Create a New Game) and when a repositioning event might call for switching styles, see [market-positioning-styles](../skills/obviously-awesome/references/patterns/market-positioning-styles.md).
 
 To begin a full repositioning after a **Reposition** verdict, run [`list-competitive-alternatives.md`](list-competitive-alternatives.md) first, then proceed in step order.
+
+---
+
+## Related files
+
+- [positioning anti-patterns](../skills/obviously-awesome/references/anti-patterns/positioning-anti-patterns.md)
+- [market-positioning-styles](../skills/obviously-awesome/references/patterns/market-positioning-styles.md)
+- [competitive-alternatives](../skills/obviously-awesome/references/topics/competitive-alternatives.md)
+- [Positioning Review Log template](../skills/obviously-awesome/templates/positioning-review-log.md) — fillable blank for this command's output

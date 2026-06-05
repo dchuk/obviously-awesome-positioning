@@ -48,6 +48,8 @@ argument-hint: "[product-name or positioning-doc]"
 
    Label this output: **"Step 4 Output: Competitive Alternatives (input to Step 5)"**
 
+   Offer the user the blank template at `../skills/obviously-awesome/templates/competitive-alternatives.md` — populate it directly with the generated table and edge-cases list, or hand it over for the user to fill in.
+
 ---
 
 ## Verify
@@ -71,6 +73,7 @@ If any check fails, surface the specific gap to the user before proceeding.
 - If a competitor appears on the list solely because the product creator is aware of them — not because customers would actually use them — apply the **exclude** rule from Step 3. Low-mindshare competitors do not belong on this list.
 
 **Related files:**
+- [Competitive Alternatives template](../skills/obviously-awesome/templates/competitive-alternatives.md) — fillable blank for this command's output
 - [Competitive Alternatives reference](../skills/obviously-awesome/references/topics/competitive-alternatives.md) — deeper coverage of the "what would they do without you?" framing and mindshare filtering
 - [Best-fit customers](../skills/obviously-awesome/references/core/best-fit-customers.md) — required input for this step
 - [Five plus one components](../skills/obviously-awesome/references/core/five-plus-one-components.md) — shows how competitive alternatives feed into the full positioning model

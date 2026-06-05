@@ -46,6 +46,8 @@ argument-hint: "[product name or context]"
    2. ...
    ```
 
+   Offer the user the blank template at `../skills/obviously-awesome/templates/best-fit-customers.md` — populate it directly with the generated anchor table and scope decision, or hand it over for the user to fill in.
+
 8. **Save the list as a positioning anchor.** Instruct the user to keep this list visible throughout Steps 2–10. Every subsequent decision — competitive alternatives, unique attributes, value themes, market frame of reference — should be evaluated through the lens of *"does this resonate with these best-fit customers?"*
 
 ---
@@ -69,4 +71,5 @@ If the list contains customers who were slow to close, required heavy discountin
 - **Anti-pattern to avoid:** Do not conflate investor positioning with customer positioning. Your investor deck may frame the market opportunity in terms that mean nothing to a buyer evaluating alternatives.
 - For the full treatment of how best-fit customers interact with the rest of the positioning components, see [best-fit customers](../skills/obviously-awesome/references/core/best-fit-customers.md).
 - For an overview of all five positioning components that this list will anchor, see [five-plus-one components](../skills/obviously-awesome/references/core/five-plus-one-components.md).
+- [Best-Fit Customers template](../skills/obviously-awesome/templates/best-fit-customers.md) — fillable blank for this command's output
 - Once this list is compiled, proceed to [`list-competitive-alternatives.md`](list-competitive-alternatives.md) (Step 4) or run the full sequence via [`agents/positioning-planner.md`](../skills/obviously-awesome/../../../agents/positioning-planner.md).

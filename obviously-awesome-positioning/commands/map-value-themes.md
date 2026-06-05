@@ -35,6 +35,8 @@ argument-hint: "[product name or positioning doc]"
    |---|-----------|----------------------------|---------------------------|
    | 1 | …         | …                          | …                         |
 
+   Offer the user the blank template at `../skills/obviously-awesome/templates/unique-attributes.md` — populate it directly with the generated attribute table, or hand it over for the user to fill in.
+
 3. **Build the features→benefits→value chain (Step 6, part 1).** For each attribute from the table above:
    - **Feature** — what the product does or has (carry forward from Step 5)
    - **Benefit** — what the feature enables for customers (functional outcome)
@@ -59,6 +61,8 @@ argument-hint: "[product name or positioning doc]"
    1. **[Theme Name]** — [1-sentence description of the customer goal this theme serves]
       - Supporting value points: …
    2. …
+
+   Offer the user the blank template at `../skills/obviously-awesome/templates/value-themes.md` — it captures both the features→benefits→value chain (Step 6 part 1) and the 1–4 value theme summary. Populate it directly with the generated tables, or hand it over for the user to fill in.
 
 5. **Prioritize consideration attributes.** Review the final themes. Flag any theme that is supported exclusively by retention attributes — these are important for customer success but should not anchor external positioning. Confirm at least one theme is anchored in consideration attributes.
 
@@ -91,3 +95,5 @@ If any theme is still expressed as a feature or benefit rather than a customer g
 - [Value themes deep dive](../skills/obviously-awesome/references/topics/value-themes.md) — the features→benefits→value chain, clustering rules, 1–4 cluster guidance
 - [Five (plus one) components](../skills/obviously-awesome/references/core/five-plus-one-components.md) — where value themes fit in the full positioning model
 - [Competitive alternatives](../skills/obviously-awesome/references/topics/competitive-alternatives.md) — Step 4 output that feeds this command
+- [Unique Attributes template](../skills/obviously-awesome/templates/unique-attributes.md) — fillable blank for this command's output
+- [Value Themes template](../skills/obviously-awesome/templates/value-themes.md) — fillable blank for this command's output

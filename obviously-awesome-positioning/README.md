@@ -29,6 +29,21 @@ Run these in order to work through the full positioning process, or invoke any o
 | `/obviously-awesome-positioning:build-sales-story` | Build a sales story from completed positioning using the 7-step arc |
 | `/obviously-awesome-positioning:review-positioning-health` | Conduct a periodic positioning review and decide whether to reposition or hold |
 
+## Templates
+
+Each command can hand you a blank, fillable artifact to capture its output — kept in `skills/obviously-awesome/templates/`. They reuse each command's exact output structure and bake in the book's hard constraints (e.g. 2–5 competitive-alternative clusters, 1–4 value themes, provable attributes only), so the artifact stays consistent across sessions and can be versioned alongside your positioning work.
+
+| Template | Backs | Captures |
+|----------|-------|----------|
+| `best-fit-customers.md` | `/identify-best-fit-customers` | 3–10 anchor customers + product-vs-company scope decision |
+| `competitive-alternatives.md` | `/list-competitive-alternatives` | Ranked 2–5 clusters of what customers would do without you |
+| `unique-attributes.md` | `/map-value-themes` | Provable attributes with proof source + consideration/retention |
+| `value-themes.md` | `/map-value-themes` | Features→benefits→value chain and the 1–4 named themes |
+| `market-frame.md` | `/select-market-frame` | The three style decision tables + the chosen frame of reference |
+| `sales-story.md` | `/build-sales-story` | The 7-stage sales narrative arc |
+| `positioning-diagnosis.md` | `/diagnose-positioning` | Symptom checklist + customer-vs-prospect gap + verdict |
+| `positioning-review-log.md` | `/review-positioning-health` | Append-only log of landscape changes and reposition decisions |
+
 ## Agents
 
 - **obviously-awesome-positioning-planner** — Plans and sequences a positioning or repositioning effort, guiding you through the full 10-step process and adapting to whether you're positioning from scratch, repositioning an existing product, or responding to a competitive landscape change.
@@ -49,7 +64,7 @@ The skill draws on 12 reference files:
 obviously-awesome-positioning/    # the plugin
 ├── commands/                     # 7 slash commands
 ├── agents/                       # 2 agents
-└── skills/obviously-awesome/     # skill + 12 reference files
+└── skills/obviously-awesome/     # skill + 12 reference files + 8 templates
 .claude-plugin/marketplace.json   # marketplace manifest
 ```
 
